@@ -1,0 +1,5 @@
+version: '3'
+services:
+  richwordnet:
+    image: amrendonsa/enrichedwordnet:0.1.0
+    network_mode: host
